@@ -75,7 +75,7 @@ public class GUI implements ActionListener {
     ActionListener adicionarVendas = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
-
+            new GUIVendas();
         }
     };
 
